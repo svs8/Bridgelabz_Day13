@@ -33,7 +33,15 @@ public class MainClass {
         Float max1 = generictestmaximum.testFloatMaximum(arr2[0], arr2[1], arr2[2]);
         System.out.println("maximum of three integers " + arr2[0] + " " + arr2[1] + " " + arr2[2] + " is " + max1);
 
+        System.out.println("enter the first String");
+        arr3[0]=scanner.next();
+        System.out.println("enter the second String");
+        arr3[1]=scanner.next();
+        System.out.println("enter the second String");
+        arr3[2]=scanner.next();
 
+        String max2 = generictestmaximum.testStringMaximum(arr3[0], arr3[1], arr3[2]);
+        System.out.println("maximum of three integers " + arr3[0] + " " + arr3[1] + " " + arr3[2] + " is " + max2);
 
     }
 }
