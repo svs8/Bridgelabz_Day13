@@ -1,0 +1,29 @@
+package com.bridgelabz;
+
+import java.util.Scanner;
+
+public class MainClass {
+    static Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+
+        Integer[] arr1 = new Integer[3];
+        Float[] arr2 = new Float[3];
+        String[] arr3 = new String[3];
+
+        System.out.println("enter the first integer");
+        arr1[0] = scanner.nextInt();
+        System.out.println("enter the second integer");
+        arr1[1] = scanner.nextInt();
+        System.out.println("enter the second integer");
+        arr1[2] = scanner.nextInt();
+
+        GenericTestMaximum generictestmaximum = new GenericTestMaximum();
+
+        Integer max = generictestmaximum.testIntegerMaximum(arr1[0], arr1[1], arr1[2]);
+        System.out.println("maximum of three integers " + arr1[0] + " " + arr1[1] + " " + arr1[2] + " is " + max);
+
+
+
+    }
+}
