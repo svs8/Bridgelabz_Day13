@@ -23,6 +23,16 @@ public class MainClass {
         Integer max = generictestmaximum.testIntegerMaximum(arr1[0], arr1[1], arr1[2]);
         System.out.println("maximum of three integers " + arr1[0] + " " + arr1[1] + " " + arr1[2] + " is " + max);
 
+        System.out.println("enter the first float");
+        arr2[0]= scanner.nextFloat();
+        System.out.println("enter the second float");
+        arr2[1]=scanner.nextFloat();
+        System.out.println("enter the second float");
+        arr2[2]=scanner.nextFloat();
+
+        Float max1 = generictestmaximum.testFloatMaximum(arr2[0], arr2[1], arr2[2]);
+        System.out.println("maximum of three integers " + arr2[0] + " " + arr2[1] + " " + arr2[2] + " is " + max1);
+
 
 
     }
