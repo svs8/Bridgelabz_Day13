@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 public class GenericTestMaximum<T extends Comparable<T>>{
 
-    public <T extends Comparable<T>> T testIntegerMaximum(T ...n) {
+    public <T extends Comparable<T>> void testIntegerMaximum(T ...n) {
         Integer i=0;
         T max=n[i];
         for(T data:n){
@@ -11,8 +11,11 @@ public class GenericTestMaximum<T extends Comparable<T>>{
             }
             i++;
         }
-        return max;
+        printMax(max);
+    }
 
+    public <T> void printMax(T max) {
+        System.out.println("The maximum value is "+max);
     }
 
 
