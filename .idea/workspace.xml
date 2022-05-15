@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dacb712f-01c8-4ce5-8c46-6c69e6b5ec08" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/GenericTestMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/GenericTestMaximum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/MainClass.java" afterDir="false" />
     </list>
@@ -33,7 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Bridgelabz_coderepo/Bridgelabz_Day13"
+    "last_opened_file_path": "C:/Bridgelabz_coderepo/DataStructure"
   }
 }]]></component>
   <component name="RunManager">
