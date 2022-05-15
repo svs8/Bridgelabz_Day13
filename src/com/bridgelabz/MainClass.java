@@ -20,8 +20,8 @@ public class MainClass {
 
         GenericTestMaximum generictestmaximum = new GenericTestMaximum();
 
-        Integer max = generictestmaximum.testIntegerMaximum(arr1[0], arr1[1], arr1[2]);
-        System.out.println("maximum of three integers " + arr1[0] + " " + arr1[1] + " " + arr1[2] + " is " + max);
+         Integer max= (Integer) generictestmaximum.testIntegerMaximum(arr1[0], arr1[1], arr1[2]);
+       System.out.println("maximum of three integers " + arr1[0] + " " + arr1[1] + " " + arr1[2] + " is " + max);
 
         System.out.println("enter the first float");
         arr2[0]= scanner.nextFloat();
@@ -30,8 +30,8 @@ public class MainClass {
         System.out.println("enter the second float");
         arr2[2]=scanner.nextFloat();
 
-        Float max1 = generictestmaximum.testFloatMaximum(arr2[0], arr2[1], arr2[2]);
-        System.out.println("maximum of three integers " + arr2[0] + " " + arr2[1] + " " + arr2[2] + " is " + max1);
+        Float max1= (Float) generictestmaximum.testIntegerMaximum(arr2[0], arr2[1], arr2[2]);
+        System.out.println("maximum of three Floats " + arr2[0] + " " + arr2[1] + " " + arr2[2] + " is " + max1);
 
         System.out.println("enter the first String");
         arr3[0]=scanner.next();
@@ -40,8 +40,8 @@ public class MainClass {
         System.out.println("enter the second String");
         arr3[2]=scanner.next();
 
-        String max2 = generictestmaximum.testStringMaximum(arr3[0], arr3[1], arr3[2]);
-        System.out.println("maximum of three integers " + arr3[0] + " " + arr3[1] + " " + arr3[2] + " is " + max2);
+         String max2= (String) generictestmaximum.testIntegerMaximum(arr3[0], arr3[1], arr3[2]);
+        System.out.println("maximum of three String " + arr3[0] + " " + arr3[1] + " " + arr3[2] + " is " + max2);
 
     }
 }
